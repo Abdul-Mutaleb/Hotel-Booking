@@ -5,8 +5,13 @@
         </h2>
     </x-slot>
 
-    <div class="row justify-content-center my-5">
+    <diV>
+        <h1>hello</h1>
+    </diV>
+
+    <!-- <div class="row justify-content-center my-5">
         <div class="col">
+            <h1>A</h1>
             <div class="card shadow-sm">
                 <div class="card-body">
                     @include('profile.partials.update-profile-information-form')
@@ -25,5 +30,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </x-app-layout>

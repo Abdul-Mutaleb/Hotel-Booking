@@ -18,6 +18,14 @@
             <x-input-error :messages="$errors->get('email')" />
         </div>
 
+        <!-- phone number -->
+        <div class="mt-3">
+            <x-input-label for="phone" :value="__('Phone ')" />
+            <x-text-input id="phone" type="number" name="phone" :value="old('phone')" :class="$errors->get('phone') ? 'is-invalid' : ''" required
+                autocomplete="username" />
+            <x-input-error :messages="$errors->get('phone')" />
+        </div>
+
         <!-- Password -->
         <div class="mt-3">
             <x-input-label for="password" :value="__('Password')" />
